@@ -1,0 +1,193 @@
+if isFinishSession{
+            ZStack{
+                Text("Finish")
+            }
+        } else {
+            ZStack{
+                
+                VStack{
+                    Text(phrase[phrase_cnt])
+                    Text(enter_text)
+                    //                Text("\(degital_rotate)")
+                }
+                //外枠のオブジェクトの描画
+                if is_vowel {
+                    //子音
+                    ForEach(0 ..< vowel_size, id: \.self){ i in
+                        AShape(start_angle: (start_angle - 90) + offset_vowel_angle * CGFloat(i), offset_angle: offset_vowel_angle)
+                            .stroke(style:StrokeStyle(lineWidth: 20))
+                            .fill(bar_color[i])
+                            .frame(width: MAX_WIDTH , height: MAX_HEIGHT)
+                            .position(x: CenterX, y : CenterY)
+                    }
+                } else {
+                    //母音
+                    ForEach(0 ..< consonant[vowel_index].count, id: \.self){ i in
+                        AShape(start_angle: (start_angle - 90) + offset_cons_angle * CGFloat(i), offset_angle: offset_cons_angle)
+                            .stroke(style:StrokeStyle(lineWidth: 20))
+                            .fill(bar_cons_color[i])
+                            .frame(width: MAX_WIDTH , height: MAX_HEIGHT)
+                        
+                    }
+                }
+           
+                // デジタルクラウンによって，回転する円カーソル
+                Circle()
+                    .fill(Color.green) // 円の色を設定
+                    .frame(width: 15, height: 15) // 円のサイズを設定
+                    .position(x: circlePositionX, y: circlePositionY) // 円の位置を指定
+                    .focusable()
+                
+                    .digitalCrownRotation(
+                        detent: $degital_rotate,
+                        from:0, through: 360, by: CircleSpeed,
+                        sensitivity:.high, isContinuous:true)
+                { event in
+                    old_crownSpeed = crownSpeed
+                    crownSpeed = event.velocity
+//                    if StartFlag{
+//
+//                        if old_crownSpeed - crownSpeed == 0{
+//                            print("0")
+//                        }
+//                    }
+                    if crownSpeed > DeleteSpeed { //削除操作（デジタルクラウンを高速に上回転させたかどうか）
+                        StartFlag = false
+                        if !DeleteFlag && !enter_text.isEmpty {
+                            DeleteCnt += 1
+                            if is_vowel{
+                                enter_text.removeLast() //末尾の文字を削除
+                            } else {
+                                is_vowel = true
+                            }
+                            
+                            DeleteFlag = true //フラグON
+                            
+                        }
+                    } else if crownSpeed <= 0.04 && crownSpeed >= -0.04{ //速度がゼロ
+                        
+                        
+                        DeleteFlag = false
+                        
+                        if StartFlag{
+                            StartFlag = false
+                            if is_vowel {
+                                if vowels[vowel_index] == "\",゜" {
+                                    if !enter_text.isEmpty {
+                                        if HenkanCnt == 0{
+                                            prev_text = String(enter_text.last!)
+                                        }
+                                        if henkan.keys.contains(prev_text) {
+                                            Henkan()
+                                            HenkanCnt += 1
+                                        }
+                                    }
+                                    
+                                } else {
+                                    offset_cons_angle = 360 / CGFloat(consonant[vowel_index].count)
+                                    is_vowel.toggle()
+                                    CheckConsObj()
+                                    HenkanCnt = 0
+                                }
+                            } else {
+                                
+                                enter_text.append(consonant[vowel_index][cons_index])
+                                enter_log.append(consonant[vowel_index][cons_index])
+                                is_vowel.toggle()
+                                CheckVowelObj()
+                            }
+                            
+                        }
+                        
+                        degital_rotate = 0.0
+                        SetCirclePos()
+                        
+                        if is_vowel {
+                            CheckVowelObj()
+                        } else {
+                            CheckConsObj()
+                        }
+                        
+                        
+                        
+                    } else { // デジタルクラウンを動かしている時
+                        
+                        StartFlag = DeleteFlag ? false : true//DeleteしているときはStarFlagはOFF
+                        SetCirclePos()
+                        if !isStartTime{
+
+                            startTime = Date()
+                            isStartTime = true
+                        }
+                        // 選択中のオブジェクトの色を赤くする
+                        if is_vowel {
+                            //　子音
+                            CheckVowelObj()
+                        } else {
+                            //　母音
+                            CheckConsObj()
+                        }
+                    }
+                    
+                }
+
+                
+                // ラベル
+                if is_vowel {
+                    // 子音
+                    ForEach(0 ..< vowel_size, id: \.self){ i in
+                        let rad_angle = ((start_angle - 90) + offset_vowel_angle * CGFloat(i) + offset_vowel_angle / 2) * Double.pi / 180.0
+                        Text(vowels[i])
+                            .position(x: (length + 37) * cos(rad_angle) + CenterX, y: (length + 37) * sin(rad_angle) + CenterY)
+                            .foregroundColor(Color.black)
+                            .font(Font.system(size: 13).bold())
+                    }
+                } else {
+                    // 母音
+                    ForEach(0 ..< consonant[vowel_index].count, id: \.self){ i in
+                        let rad_angle = ((start_angle - 90) + offset_cons_angle * CGFloat(i) + offset_cons_angle / 2) * Double.pi / 180.0
+                        Text(consonant[vowel_index][i])
+                            .position(x: (length + 37) * cos(rad_angle) + CenterX, y: (length + 37) * sin(rad_angle) + CenterY)
+                            .foregroundColor(Color.black)
+                            .font(Font.system(size: 20).bold())
+                    }
+                }
+            }
+            .onTapGesture(){ touch_pos in
+                if touch_pos.x >= 100{
+                    if phrase_dic.count <= session_maxcnt {
+                        isStartTime = false
+                        let timeInterval = Date().timeIntervalSince(startTime)
+                        let time = Int(timeInterval)
+                        
+                        
+                        let m = time / 60 % 60
+                        let s = time % 60
+                        
+                        // ミリ秒
+                        let ms = Int(timeInterval * 100) % 100
+                        
+                        entry_time = String(format: "%dm%d.%ds",  m, s, ms)
+                        CPM = String(Double(phrase[phrase_cnt].count)/(Double(m)+(Double(s)+Double(ms)/100.0)/60.0))
+                        TER = Double(LevenshteinDistance(s1: phrase[phrase_cnt], s2: enter_log)) / Double(enter_log.count)
+                        
+                        connector.send(phrase:phrase[phrase_cnt],phraseID:phrase_cnt,keystroke:enter_log.count,Time:entry_time,CPM:CPM,TER:TER,DeleteCnt:DeleteCnt)
+                        
+                        
+                        phrase_cnt = Int.random(in: 0 ..< phrase.count-1)
+                        
+                        while phrase_dic.keys.contains(phrase_cnt){
+                            phrase_cnt = Int.random(in: 0 ..< phrase.count-1)
+                            
+                        }
+                        phrase_dic[phrase_cnt] = 1
+                        enter_text.removeAll()
+                        enter_log.removeAll()
+                        
+                    }else{
+                        isFinishSession = true
+                    }
+                    
+                }
+            }
+        }

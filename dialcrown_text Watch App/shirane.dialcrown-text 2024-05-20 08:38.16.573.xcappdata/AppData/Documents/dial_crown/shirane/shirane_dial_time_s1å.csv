@@ -1,0 +1,11 @@
+﻿user,method,sessionID,phrase,phraseID,keystroke,TIME,CPM,TER
+test,layout_notouch_dial,0,つくばだいがく,0,7,0m13.1s,32.28285933897003,0.0,0.0
+test,layout_notouch_dial,0,わかりました,16,6,0m9.2s,39.91130820399113,0.0,0.0
+test,layout_notouch_dial,0,やちんをはらう,47,7,0m13.87s,30.281182408074983,0.0,1.0
+test,layout_notouch_dial,0,れんしゅうする,7,7,0m13.87s,30.281182408074983,0.0,2.0
+test,layout_notouch_dial,0,めんどくさい,30,6,0m10.39s,34.64870067372473,0.0,2.0
+test,layout_notouch_dial,0,おなかすいた,25,6,0m8.65s,41.61849710982659,0.0,2.0
+test,layout_notouch_dial,0,おひさしぶり,28,6,0m11.27s,31.94321206743567,0.0,2.0
+test,layout_notouch_dial,0,ききかんをもつ,34,7,0m12.78s,32.863849765258216,0.0,2.0
+test,layout_notouch_dial,0,てんきわるい,18,6,0m11.22s,32.0855614973262,0.0,2.0
+test,layout_notouch_dial,0,ごごきゅうこう,3,7,0m11.96s,35.11705685618729,0.0,2.0

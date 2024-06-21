@@ -1,0 +1,6 @@
+﻿user,method,sessionID,phrase,phraseID,enter_log,keystroke,TIME,CPM,TER
+test,layout_notouch_dial,0,ごめんなさい,17,ごめんなさい,6,0m9.34s,38.54389721627409,0.0,0.0
+test,layout_notouch_dial,0,かぜをひいた,31,かそぜをひいた,7,0m11.49s,31.33159268929504,0.14285714285714285,1.0
+test,layout_notouch_dial,0,りしゅうとうろく,46,りしゅうとうろく,8,0m13.8s,36.69724770642202,0.0,1.0
+test,layout_notouch_dial,0,すいみんをとる,26,すいみんをとまる,8,0m14.26s,29.453015427769987,0.125,2.0
+test,layout_notouch_dial,0,すたんぷをつかう,50,すたんぷをつかう,8,0m17.60s,27.272727272727273,0.0,4.0

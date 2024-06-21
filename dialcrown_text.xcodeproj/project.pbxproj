@@ -1,0 +1,1052 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		416118BC2B236344007ADC9E /* delete_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 416118BB2B236343007ADC9E /* delete_icon.png */; };
+		41AA38722B1F144700271770 /* dialcrown_textApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AA38712B1F144700271770 /* dialcrown_textApp.swift */; };
+		41AA38742B1F144700271770 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AA38732B1F144700271770 /* ContentView.swift */; };
+		41AA38762B1F144B00271770 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41AA38752B1F144B00271770 /* Assets.xcassets */; };
+		41AA38792B1F144B00271770 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41AA38782B1F144B00271770 /* Preview Assets.xcassets */; };
+		41AA38832B1F144C00271770 /* dialcrown_textTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AA38822B1F144C00271770 /* dialcrown_textTests.swift */; };
+		41AA388D2B1F144C00271770 /* dialcrown_textUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AA388C2B1F144C00271770 /* dialcrown_textUITests.swift */; };
+		41AA388F2B1F144C00271770 /* dialcrown_textUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AA388E2B1F144C00271770 /* dialcrown_textUITestsLaunchTests.swift */; };
+		41AA38952B1F144C00271770 /* dialcrown_text Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 41AA38942B1F144C00271770 /* dialcrown_text Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		41AA389A2B1F144C00271770 /* dialcrown_textApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AA38992B1F144C00271770 /* dialcrown_textApp.swift */; };
+		41AA389C2B1F144C00271770 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AA389B2B1F144C00271770 /* ContentView.swift */; };
+		41AA389E2B1F145000271770 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41AA389D2B1F145000271770 /* Assets.xcassets */; };
+		41AA38A12B1F145000271770 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41AA38A02B1F145000271770 /* Preview Assets.xcassets */; };
+		41AA38AB2B1F145100271770 /* dialcrown_text_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AA38AA2B1F145100271770 /* dialcrown_text_Watch_AppTests.swift */; };
+		41AA38B52B1F145100271770 /* dialcrown_text_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AA38B42B1F145100271770 /* dialcrown_text_Watch_AppUITests.swift */; };
+		41AA38B72B1F145100271770 /* dialcrown_text_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41AA38B62B1F145100271770 /* dialcrown_text_Watch_AppUITestsLaunchTests.swift */; };
+		AB0389AA2BFA863200F55E78 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0389A92BFA863200F55E78 /* PracticeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41AA387F2B1F144C00271770 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41AA38662B1F144600271770 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41AA386D2B1F144700271770;
+			remoteInfo = dialcrown_text;
+		};
+		41AA38892B1F144C00271770 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41AA38662B1F144600271770 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41AA386D2B1F144700271770;
+			remoteInfo = dialcrown_text;
+		};
+		41AA38962B1F144C00271770 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41AA38662B1F144600271770 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41AA38932B1F144C00271770;
+			remoteInfo = "dialcrown_text Watch App";
+		};
+		41AA38A72B1F145100271770 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41AA38662B1F144600271770 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41AA38932B1F144C00271770;
+			remoteInfo = "dialcrown_text Watch App";
+		};
+		41AA38B12B1F145100271770 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41AA38662B1F144600271770 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41AA38932B1F144C00271770;
+			remoteInfo = "dialcrown_text Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		41AA38BD2B1F145100271770 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				41AA38952B1F144C00271770 /* dialcrown_text Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		416118BB2B236343007ADC9E /* delete_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete_icon.png; sourceTree = "<group>"; };
+		41AA386E2B1F144700271770 /* dialcrown_text.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dialcrown_text.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41AA38712B1F144700271770 /* dialcrown_textApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dialcrown_textApp.swift; sourceTree = "<group>"; };
+		41AA38732B1F144700271770 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		41AA38752B1F144B00271770 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41AA38782B1F144B00271770 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41AA387E2B1F144C00271770 /* dialcrown_textTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dialcrown_textTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41AA38822B1F144C00271770 /* dialcrown_textTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dialcrown_textTests.swift; sourceTree = "<group>"; };
+		41AA38882B1F144C00271770 /* dialcrown_textUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dialcrown_textUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41AA388C2B1F144C00271770 /* dialcrown_textUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dialcrown_textUITests.swift; sourceTree = "<group>"; };
+		41AA388E2B1F144C00271770 /* dialcrown_textUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dialcrown_textUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		41AA38942B1F144C00271770 /* dialcrown_text Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dialcrown_text Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41AA38992B1F144C00271770 /* dialcrown_textApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dialcrown_textApp.swift; sourceTree = "<group>"; };
+		41AA389B2B1F144C00271770 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		41AA389D2B1F145000271770 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41AA38A02B1F145000271770 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		41AA38A62B1F145100271770 /* dialcrown_text Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dialcrown_text Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41AA38AA2B1F145100271770 /* dialcrown_text_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dialcrown_text_Watch_AppTests.swift; sourceTree = "<group>"; };
+		41AA38B02B1F145100271770 /* dialcrown_text Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dialcrown_text Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41AA38B42B1F145100271770 /* dialcrown_text_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dialcrown_text_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		41AA38B62B1F145100271770 /* dialcrown_text_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dialcrown_text_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB0389A92BFA863200F55E78 /* PracticeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41AA386B2B1F144700271770 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AA387B2B1F144C00271770 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AA38852B1F144C00271770 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AA38912B1F144C00271770 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AA38A32B1F145100271770 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AA38AD2B1F145100271770 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41AA38652B1F144600271770 = {
+			isa = PBXGroup;
+			children = (
+				41AA38702B1F144700271770 /* dialcrown_text */,
+				41AA38812B1F144C00271770 /* dialcrown_textTests */,
+				41AA388B2B1F144C00271770 /* dialcrown_textUITests */,
+				41AA38982B1F144C00271770 /* dialcrown_text Watch App */,
+				41AA38A92B1F145100271770 /* dialcrown_text Watch AppTests */,
+				41AA38B32B1F145100271770 /* dialcrown_text Watch AppUITests */,
+				41AA386F2B1F144700271770 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41AA386F2B1F144700271770 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41AA386E2B1F144700271770 /* dialcrown_text.app */,
+				41AA387E2B1F144C00271770 /* dialcrown_textTests.xctest */,
+				41AA38882B1F144C00271770 /* dialcrown_textUITests.xctest */,
+				41AA38942B1F144C00271770 /* dialcrown_text Watch App.app */,
+				41AA38A62B1F145100271770 /* dialcrown_text Watch AppTests.xctest */,
+				41AA38B02B1F145100271770 /* dialcrown_text Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41AA38702B1F144700271770 /* dialcrown_text */ = {
+			isa = PBXGroup;
+			children = (
+				41AA38712B1F144700271770 /* dialcrown_textApp.swift */,
+				41AA38732B1F144700271770 /* ContentView.swift */,
+				41AA38752B1F144B00271770 /* Assets.xcassets */,
+				41AA38772B1F144B00271770 /* Preview Content */,
+			);
+			path = dialcrown_text;
+			sourceTree = "<group>";
+		};
+		41AA38772B1F144B00271770 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				41AA38782B1F144B00271770 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41AA38812B1F144C00271770 /* dialcrown_textTests */ = {
+			isa = PBXGroup;
+			children = (
+				41AA38822B1F144C00271770 /* dialcrown_textTests.swift */,
+			);
+			path = dialcrown_textTests;
+			sourceTree = "<group>";
+		};
+		41AA388B2B1F144C00271770 /* dialcrown_textUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41AA388C2B1F144C00271770 /* dialcrown_textUITests.swift */,
+				41AA388E2B1F144C00271770 /* dialcrown_textUITestsLaunchTests.swift */,
+			);
+			path = dialcrown_textUITests;
+			sourceTree = "<group>";
+		};
+		41AA38982B1F144C00271770 /* dialcrown_text Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				41AA38992B1F144C00271770 /* dialcrown_textApp.swift */,
+				416118BB2B236343007ADC9E /* delete_icon.png */,
+				41AA389B2B1F144C00271770 /* ContentView.swift */,
+				AB0389A92BFA863200F55E78 /* PracticeView.swift */,
+				41AA389D2B1F145000271770 /* Assets.xcassets */,
+				41AA389F2B1F145000271770 /* Preview Content */,
+			);
+			path = "dialcrown_text Watch App";
+			sourceTree = "<group>";
+		};
+		41AA389F2B1F145000271770 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				41AA38A02B1F145000271770 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		41AA38A92B1F145100271770 /* dialcrown_text Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				41AA38AA2B1F145100271770 /* dialcrown_text_Watch_AppTests.swift */,
+			);
+			path = "dialcrown_text Watch AppTests";
+			sourceTree = "<group>";
+		};
+		41AA38B32B1F145100271770 /* dialcrown_text Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				41AA38B42B1F145100271770 /* dialcrown_text_Watch_AppUITests.swift */,
+				41AA38B62B1F145100271770 /* dialcrown_text_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "dialcrown_text Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41AA386D2B1F144700271770 /* dialcrown_text */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41AA38BE2B1F145100271770 /* Build configuration list for PBXNativeTarget "dialcrown_text" */;
+			buildPhases = (
+				41AA386A2B1F144700271770 /* Sources */,
+				41AA386B2B1F144700271770 /* Frameworks */,
+				41AA386C2B1F144700271770 /* Resources */,
+				41AA38BD2B1F145100271770 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41AA38972B1F144C00271770 /* PBXTargetDependency */,
+			);
+			name = dialcrown_text;
+			productName = dialcrown_text;
+			productReference = 41AA386E2B1F144700271770 /* dialcrown_text.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41AA387D2B1F144C00271770 /* dialcrown_textTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41AA38C12B1F145100271770 /* Build configuration list for PBXNativeTarget "dialcrown_textTests" */;
+			buildPhases = (
+				41AA387A2B1F144C00271770 /* Sources */,
+				41AA387B2B1F144C00271770 /* Frameworks */,
+				41AA387C2B1F144C00271770 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41AA38802B1F144C00271770 /* PBXTargetDependency */,
+			);
+			name = dialcrown_textTests;
+			productName = dialcrown_textTests;
+			productReference = 41AA387E2B1F144C00271770 /* dialcrown_textTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41AA38872B1F144C00271770 /* dialcrown_textUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41AA38C42B1F145100271770 /* Build configuration list for PBXNativeTarget "dialcrown_textUITests" */;
+			buildPhases = (
+				41AA38842B1F144C00271770 /* Sources */,
+				41AA38852B1F144C00271770 /* Frameworks */,
+				41AA38862B1F144C00271770 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41AA388A2B1F144C00271770 /* PBXTargetDependency */,
+			);
+			name = dialcrown_textUITests;
+			productName = dialcrown_textUITests;
+			productReference = 41AA38882B1F144C00271770 /* dialcrown_textUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		41AA38932B1F144C00271770 /* dialcrown_text Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41AA38BA2B1F145100271770 /* Build configuration list for PBXNativeTarget "dialcrown_text Watch App" */;
+			buildPhases = (
+				41AA38902B1F144C00271770 /* Sources */,
+				41AA38912B1F144C00271770 /* Frameworks */,
+				41AA38922B1F144C00271770 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dialcrown_text Watch App";
+			productName = "dialcrown_text Watch App";
+			productReference = 41AA38942B1F144C00271770 /* dialcrown_text Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41AA38A52B1F145100271770 /* dialcrown_text Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41AA38C72B1F145100271770 /* Build configuration list for PBXNativeTarget "dialcrown_text Watch AppTests" */;
+			buildPhases = (
+				41AA38A22B1F145100271770 /* Sources */,
+				41AA38A32B1F145100271770 /* Frameworks */,
+				41AA38A42B1F145100271770 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41AA38A82B1F145100271770 /* PBXTargetDependency */,
+			);
+			name = "dialcrown_text Watch AppTests";
+			productName = "dialcrown_text Watch AppTests";
+			productReference = 41AA38A62B1F145100271770 /* dialcrown_text Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		41AA38AF2B1F145100271770 /* dialcrown_text Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41AA38CA2B1F145100271770 /* Build configuration list for PBXNativeTarget "dialcrown_text Watch AppUITests" */;
+			buildPhases = (
+				41AA38AC2B1F145100271770 /* Sources */,
+				41AA38AD2B1F145100271770 /* Frameworks */,
+				41AA38AE2B1F145100271770 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41AA38B22B1F145100271770 /* PBXTargetDependency */,
+			);
+			name = "dialcrown_text Watch AppUITests";
+			productName = "dialcrown_text Watch AppUITests";
+			productReference = 41AA38B02B1F145100271770 /* dialcrown_text Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41AA38662B1F144600271770 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					41AA386D2B1F144700271770 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					41AA387D2B1F144C00271770 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 41AA386D2B1F144700271770;
+					};
+					41AA38872B1F144C00271770 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 41AA386D2B1F144700271770;
+					};
+					41AA38932B1F144C00271770 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					41AA38A52B1F145100271770 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 41AA38932B1F144C00271770;
+					};
+					41AA38AF2B1F145100271770 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 41AA38932B1F144C00271770;
+					};
+				};
+			};
+			buildConfigurationList = 41AA38692B1F144600271770 /* Build configuration list for PBXProject "dialcrown_text" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41AA38652B1F144600271770;
+			productRefGroup = 41AA386F2B1F144700271770 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41AA386D2B1F144700271770 /* dialcrown_text */,
+				41AA387D2B1F144C00271770 /* dialcrown_textTests */,
+				41AA38872B1F144C00271770 /* dialcrown_textUITests */,
+				41AA38932B1F144C00271770 /* dialcrown_text Watch App */,
+				41AA38A52B1F145100271770 /* dialcrown_text Watch AppTests */,
+				41AA38AF2B1F145100271770 /* dialcrown_text Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41AA386C2B1F144700271770 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AA38792B1F144B00271770 /* Preview Assets.xcassets in Resources */,
+				41AA38762B1F144B00271770 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AA387C2B1F144C00271770 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AA38862B1F144C00271770 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AA38922B1F144C00271770 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AA38A12B1F145000271770 /* Preview Assets.xcassets in Resources */,
+				416118BC2B236344007ADC9E /* delete_icon.png in Resources */,
+				41AA389E2B1F145000271770 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AA38A42B1F145100271770 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AA38AE2B1F145100271770 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41AA386A2B1F144700271770 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AA38742B1F144700271770 /* ContentView.swift in Sources */,
+				41AA38722B1F144700271770 /* dialcrown_textApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AA387A2B1F144C00271770 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AA38832B1F144C00271770 /* dialcrown_textTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AA38842B1F144C00271770 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AA388D2B1F144C00271770 /* dialcrown_textUITests.swift in Sources */,
+				41AA388F2B1F144C00271770 /* dialcrown_textUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AA38902B1F144C00271770 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AA389C2B1F144C00271770 /* ContentView.swift in Sources */,
+				41AA389A2B1F144C00271770 /* dialcrown_textApp.swift in Sources */,
+				AB0389AA2BFA863200F55E78 /* PracticeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AA38A22B1F145100271770 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AA38AB2B1F145100271770 /* dialcrown_text_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41AA38AC2B1F145100271770 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41AA38B52B1F145100271770 /* dialcrown_text_Watch_AppUITests.swift in Sources */,
+				41AA38B72B1F145100271770 /* dialcrown_text_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41AA38802B1F144C00271770 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41AA386D2B1F144700271770 /* dialcrown_text */;
+			targetProxy = 41AA387F2B1F144C00271770 /* PBXContainerItemProxy */;
+		};
+		41AA388A2B1F144C00271770 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41AA386D2B1F144700271770 /* dialcrown_text */;
+			targetProxy = 41AA38892B1F144C00271770 /* PBXContainerItemProxy */;
+		};
+		41AA38972B1F144C00271770 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41AA38932B1F144C00271770 /* dialcrown_text Watch App */;
+			targetProxy = 41AA38962B1F144C00271770 /* PBXContainerItemProxy */;
+		};
+		41AA38A82B1F145100271770 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41AA38932B1F144C00271770 /* dialcrown_text Watch App */;
+			targetProxy = 41AA38A72B1F145100271770 /* PBXContainerItemProxy */;
+		};
+		41AA38B22B1F145100271770 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41AA38932B1F144C00271770 /* dialcrown_text Watch App */;
+			targetProxy = 41AA38B12B1F145100271770 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		41AA38B82B1F145100271770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41AA38B92B1F145100271770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		41AA38BB2B1F145100271770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dialcrown_text Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = dialcrown_text;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "shirane.dialcrown-text";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shirane.dialcrown-text.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		41AA38BC2B1F145100271770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dialcrown_text Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = dialcrown_text;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "shirane.dialcrown-text";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shirane.dialcrown-text.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		41AA38BF2B1F145100271770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dialcrown_text/Preview Content\"";
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = dialcrown_text;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shirane.dialcrown-text";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		41AA38C02B1F145100271770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dialcrown_text/Preview Content\"";
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = dialcrown_text;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shirane.dialcrown-text";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41AA38C22B1F145100271770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shirane.dialcrown-textTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dialcrown_text.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dialcrown_text";
+			};
+			name = Debug;
+		};
+		41AA38C32B1F145100271770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shirane.dialcrown-textTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dialcrown_text.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dialcrown_text";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41AA38C52B1F145100271770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shirane.dialcrown-textUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dialcrown_text;
+			};
+			name = Debug;
+		};
+		41AA38C62B1F145100271770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shirane.dialcrown-textUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dialcrown_text;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41AA38C82B1F145100271770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shirane.dialcrown-text-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dialcrown_text Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dialcrown_text Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		41AA38C92B1F145100271770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shirane.dialcrown-text-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dialcrown_text Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dialcrown_text Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		41AA38CB2B1F145100271770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shirane.dialcrown-text-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "dialcrown_text Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		41AA38CC2B1F145100271770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NG9A57B5VW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shirane.dialcrown-text-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "dialcrown_text Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41AA38692B1F144600271770 /* Build configuration list for PBXProject "dialcrown_text" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AA38B82B1F145100271770 /* Debug */,
+				41AA38B92B1F145100271770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41AA38BA2B1F145100271770 /* Build configuration list for PBXNativeTarget "dialcrown_text Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AA38BB2B1F145100271770 /* Debug */,
+				41AA38BC2B1F145100271770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41AA38BE2B1F145100271770 /* Build configuration list for PBXNativeTarget "dialcrown_text" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AA38BF2B1F145100271770 /* Debug */,
+				41AA38C02B1F145100271770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41AA38C12B1F145100271770 /* Build configuration list for PBXNativeTarget "dialcrown_textTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AA38C22B1F145100271770 /* Debug */,
+				41AA38C32B1F145100271770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41AA38C42B1F145100271770 /* Build configuration list for PBXNativeTarget "dialcrown_textUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AA38C52B1F145100271770 /* Debug */,
+				41AA38C62B1F145100271770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41AA38C72B1F145100271770 /* Build configuration list for PBXNativeTarget "dialcrown_text Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AA38C82B1F145100271770 /* Debug */,
+				41AA38C92B1F145100271770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41AA38CA2B1F145100271770 /* Build configuration list for PBXNativeTarget "dialcrown_text Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41AA38CB2B1F145100271770 /* Debug */,
+				41AA38CC2B1F145100271770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41AA38662B1F144600271770 /* Project object */;
+}
